@@ -20,10 +20,10 @@ LAB-01/
 ├── README.md           # Project documentation
 │
 └── screenshots/        # Output screenshots
-    ├── home.png
-    ├── about.png
-    ├── time.png
-    └── 404.png
+    ├── lab01-home-page.png
+    ├── lab01-about-page.png
+    ├── lab01-time-page.png
+    └── lab01-404-page.png
 ```
 
 ## Installation
@@ -55,7 +55,7 @@ Runs a basic HTTP server using the built-in `http` module on **port 3000**.
 node app.js
 ```
 
-Runs an Express server on **port 3000** with the following routes:
+Runs an Express server on **port 3000** (or `process.env.PORT` on cloud host) with the following routes:
 
 ## API Endpoints
 
@@ -68,17 +68,17 @@ Runs an Express server on **port 3000** with the following routes:
 
 ## Screenshots
 
-### 1. Home Page (`/`)
-![Home Page](screenshots/home.png)
+### 1. Home Page
+![Home Page](screenshots/lab01-home-page.png)
 
-### 2. About Page (`/about`)
-![About Page](screenshots/about.png)
+### 2. About Page
+![About Page](screenshots/lab01-about-page.png)
 
-### 3. Current Date and Time (`/time`)
-![Time Page](screenshots/time.png)
+### 3. Current Date and Time
+![Time Page](screenshots/lab01-time-page.png)
 
-### 4. 404 Error Page (`/contact`)
-![404 Error](screenshots/404.png)
+### 4. 404 Error Page
+![404 Error](screenshots/lab01-404-page.png)
 
 ## Dependencies
 
