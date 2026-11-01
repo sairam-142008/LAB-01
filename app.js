@@ -11,8 +11,8 @@ const express = require('express');
 // Step 2: Create the Express application
 const app = express();
 
-// Step 3: Define the port number
-const PORT = 3000;
+// Step 3: Define the port number (Render provides PORT via environment variables)
+const PORT = process.env.PORT || 3000;
 
 // ============================================
 // Task 3: GET Routes
