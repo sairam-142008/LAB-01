@@ -2,6 +2,10 @@
 
 A simple Node.js and Express server project demonstrating HTTP server creation, Express routing, and error handling.
 
+## Live Deployment
+
+🌐 **Live URL:** [https://lab-01-nyf1.onrender.com](https://lab-01-nyf1.onrender.com)
+
 ## Author
 
 - **Name:** Sai Ram
@@ -59,12 +63,12 @@ Runs an Express server on **port 3000** (or `process.env.PORT` on cloud host) wi
 
 ## API Endpoints
 
-| Method | Route    | Description                     |
-|--------|----------|---------------------------------|
-| GET    | `/`      | Returns a welcome message       |
-| GET    | `/about` | Returns student info as JSON    |
-| GET    | `/time`  | Returns the current date & time |
-| *      | `/*`     | Returns 404 – Page Not Found   |
+| Method | Route    | Description                     | Live Link |
+|--------|----------|---------------------------------|-----------|
+| GET    | `/`      | Returns a welcome message       | [Open Endpoint](https://lab-01-nyf1.onrender.com/) |
+| GET    | `/about` | Returns student info as JSON    | [Open Endpoint](https://lab-01-nyf1.onrender.com/about) |
+| GET    | `/time`  | Returns the current date & time | [Open Endpoint](https://lab-01-nyf1.onrender.com/time) |
+| *      | `/*`     | Returns 404 – Page Not Found   | [Open Endpoint](https://lab-01-nyf1.onrender.com/contact) |
 
 ## Screenshots
 
