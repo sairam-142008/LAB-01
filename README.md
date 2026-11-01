@@ -67,7 +67,19 @@ node app.js
 
 ## Screenshots
 
-Add your browser screenshots inside the `screenshots/` folder.
+## Screenshots
+
+### 1. Home Page
+![Home Page](screenshots/home.png)
+
+### 2. About Page
+![About Page](screenshots/about.png)
+
+### 3. Current Date and Time
+![Time Page](screenshots/time.png)
+
+### 4. 404 Error Page
+![404 Error](screenshots/404.png)
 
 ## Problems Faced and Solutions
 
